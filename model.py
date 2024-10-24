@@ -277,7 +277,7 @@ if st.session_state.conversation and st.session_state.show_input_area and not st
 
     if input_method == "Text Entry":
         user_response = st.text_area("Type your response here:", key="user_input")
-    elif input_method == "Upload PDF/Word Document":
+    elif input_method == "Upload Document":
         uploaded_file = st.file_uploader("Upload File (PDF or Word)", type=["pdf", "docx"])
 
         if uploaded_file is not None:
