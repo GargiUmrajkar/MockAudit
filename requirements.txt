@@ -1,0 +1,14 @@
+streamlit
+openai
+PyPDF2
+transformers
+langchain
+langchain-community
+pypdf
+faiss-cpu
+sentence-transformers
+python-dotenv
+python-docx
+fpdf
+reportlab
+pymupdf

@@ -1,0 +1,4 @@
+data/
+.env
+mockauditvenv/
+.DS_Store
